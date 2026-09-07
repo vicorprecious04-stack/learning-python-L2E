@@ -1,0 +1,7 @@
+# write a program that ask a user for their name and monthly salary, then calcuate their annual salary.
+name = input("Name: ")
+monthly_salary = float(input("monthly_salary: "))
+annual_salary = monthly_salary * 12
+print(f"\nName: {name}")
+print(f"Monthly salary: ₦{monthly_salary:,.2f}")
+print(f"Annual salary: ₦{annual_salary:,.2f}")
