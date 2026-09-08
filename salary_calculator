@@ -1,4 +1,5 @@
 # write a program that ask a user for their name and monthly salary, then calcuate their annual salary.
+
 name = input("Name: ")
 monthly_salary = float(input("monthly_salary: "))
 annual_salary = monthly_salary * 12
