@@ -1,0 +1,11 @@
+# Build a program that converts US Dollars(USD) to Nigerian naira(NGN)
+
+Name = input("Name: ")
+Amount_in_Dollars = float(input("USD: "))
+Exchange_rate = 1500
+NGN = Amount_in_Dollars* Exchange_rate
+print(f"\nName: {Name}")
+print(f"Amount in Dollars: ${Amount_in_Dollars}")
+print(f"Exchange rate: ₦{Exchange_rate}")
+print(f"NGN: ₦{NGN}")
+
