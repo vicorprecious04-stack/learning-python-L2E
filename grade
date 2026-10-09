@@ -1,0 +1,32 @@
+#  Grade Calculator
+
+# Ask the user to enter a score from 0–100.
+
+# Display:
+
+# Score	Grade
+# 70–100	A
+# 60–69	B
+# 50–59	C
+# 40–49	D
+# 0–39	F
+
+# If the user enters a number below 0 or above 100, display:
+
+score = int(input("Enter score:  "))
+if score < 0 or score > 100:
+        print("Invalid score" )
+elif score >= 70:
+        print("A")
+
+elif score >= 60:
+        print("B")
+
+elif score >= 50:
+        print("C")
+
+elif score >= 40:
+        print("D")
+
+else:
+        print("F")        

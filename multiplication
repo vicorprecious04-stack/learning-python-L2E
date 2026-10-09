@@ -1,0 +1,21 @@
+#  Multiplication Tables
+
+# Ask the user for a number and print its multiplication table from 1 to 20.
+
+# Example:
+
+# Enter number: 5
+
+# 5 x 1 = 5
+# 5 x 2 = 10
+# ...
+# 5 x 20 = 100
+
+
+
+
+
+
+number  = int(input("Enter number:  "))
+for i in range(1,21):
+    print(f"{number} * {i} : {number * i}") 
