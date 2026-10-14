@@ -22,15 +22,23 @@
 # Correct! You guessed the number.
 
 
-secret_number   = 7
+secret_number   = 25
 guess_number    = int(input("Guess number:  "))
+attempt = 0
+attempt += 1
+
+
 while  guess_number != secret_number:
     if guess_number >   secret_number:
         print("Too high!")
+        
+        
 
     else:
         print("Too low!")   
 
     guess_number    = int(input("Guess number:  "))
+    attempt += 1
 
 print("Correct! You guessed the number")
+print(f"Total attempt: {attempt}")
